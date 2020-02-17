@@ -1,0 +1,123 @@
+<html>
+    <style>
+        .body{
+            align-items: center;
+            border-color: black;
+            box-sizing: border-box;
+            display: block;            
+            height: 100%;
+            padding-bottom: 40px;
+            padding-top: 40px;
+
+        }
+
+        .Email{
+            justify-content: flex-start;
+            display:flex;
+        }
+
+        .form-check{
+            padding: 10px;
+        }
+
+        .form-check-input{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .form-check-label{
+            display: flex;
+            flex-direction: row;
+        }
+        .form-group{
+            margin:auto;
+        }
+
+        .form-signin{
+            border-color: black;
+            /* border-width: 10px; */
+            /* border-style:groove; */
+            margin:auto;
+            padding-top: 150px;
+            padding-bottom: 150px;
+            width: 100%;
+            max-width: 330px;
+        }
+
+        .image{
+            height: auto;
+            width: 50px;
+        }
+
+        .logInSeparator{
+            border-top: 1px solid #cbd2d6;
+            margin:25px 0 10px;
+            position: relative;
+            text-align: center;
+        }
+
+        .Password{
+            justify-content: flex-start;
+            display:flex;
+        }
+
+        .text-center{
+            text-align: center;
+        }
+
+        .textInSeparator{
+            background-color: #fff;
+            padding: 0 .5em;
+            position: relative;
+            top: -.7em;
+        }
+
+
+    </style>
+    <head>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+            <link rel="stylesheet" href="node_modules/mdbootstrap/css/bootstrap.min.css">
+            <link rel="stylesheet" href="node_modules/mdbootstrap/css/mdb.min.css">
+            <link rel="stylesheet" href="node_modules/mdbootstrap/css/style.css">
+    </head>        
+   
+    <body class = "text-center">
+        <form class = "form-signin">
+            <div>
+                <img class = "image" src = "https://pbs.twimg.com/profile_images/1145724063106519040/b1L98qh9_400x400.jpg">
+            </div>
+            <h1 class = "h3 mb-3 font-weight-normal">
+                Please Sign In 
+            </h1>
+            <div class = "form-group">
+                <label class = "Email" for = "form-group">Email Address</label>
+                <input type = "email" class = "form-control" placeholder="Email Address"> <!-- Creates text 'Email' inside the input -->
+
+                <label for="form-group" class="Password"> Password</label> <!-- Creates text 'Password' inside the input -->
+                <input type = "password" class = "form-control" placeholder="Password">
+
+            <div class="form-check mb-3">
+                <input class = "form-check-input" type = "checkbox" value ="" id = defaultCheck1> <!-- Creates checkbox for users to click on to remember email and password -->
+                <label class = "form-check-label" for = "defaultCheck1"> Remember Me</label>
+            </div>
+
+            <div>
+             <button type="button" class="btn btn-primary btn-lg btn-block"> Sign In</button> <!-- Sign in button for people to sign in with correct email and password -->
+
+            </div>
+
+            <div class = "logInSeparator">
+                    <span class = "textInSeparator"> or </span>
+            </div>
+
+            <div class = "signUpButton">
+
+                <button type="button" class="btn btn-primary btn-lg btn-block"> Sign Up</button> 
+
+            </div>
+            </div>
+        </form>
+
+    </body>
+
+</html>
