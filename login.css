@@ -1,0 +1,146 @@
+.body{
+            
+    align-items: center;
+    border-color: black;
+    box-sizing: border-box;
+    display: block;            
+    height: 100%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+
+}
+
+.container{
+    /* border: solid rgb(90, 87, 87); */
+    /* border-radius: 100px; */
+}
+
+.Email{
+    
+    display:flex;
+    justify-content: flex-start;
+    
+}
+
+.form-check{
+    padding: 10px;
+}
+
+.form-check-input{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-check-label{
+    display: flex;
+    flex-direction: row;
+}
+.form-group{
+    margin:auto;
+}
+
+.form-signin{
+    
+    border-color: black;
+    /* border-width: 10px; 
+    border-style:groove; */
+    margin:auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    width: 100%;
+    max-width: 330px; 
+}
+
+.image{
+    height: auto;
+    width: 50px;
+}
+
+.logInSeparator{
+
+    border-top: 1px solid #cbd2d6;
+    margin:25px 0 10px;
+    position: relative;
+    text-align: center;
+}
+
+.Password{
+    
+    display:flex;
+    justify-content: flex-start;
+    
+}
+
+.signIn{
+    align-content: center;
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+
+}
+
+.textInSeparator{
+   
+    background-color: #fff;
+    padding: 0 .5em;
+    position: relative;
+    top: -.7em;
+
+}
+
+.social-media{
+
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+/* .facebook{
+
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+}
+
+.google{
+
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+
+}
+
+.twitter{
+
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+
+} */
+
+#facebook{
+
+    background: ##3B5998;
+    border-block-color: ##3B5998;
+    border-color: ##3B5998;
+
+}
+
+#google{
+
+    background: #dd4b39;
+    border-block-color: #dd4b39;
+    border-color: #dd4b39;
+
+}
+
+#twitter{
+
+    background:#55ACEE;
+    border-block-color: #55ACEE;
+    border-color: #55ACEE
+
+}

@@ -1,110 +1,31 @@
-<html>
+<!DOCTYPE html>
+<html lang ="en">
 
     <title>
         LoginUI
     </title>
 
-    <style>
-        .body{
-            
-            align-items: center;
-            border-color: black;
-            box-sizing: border-box;
-            display: block;            
-            height: 100%;
-            padding-bottom: 40px;
-            padding-top: 40px;
 
-        }
-
-        .Email{
-            
-            display:flex;
-            justify-content: flex-start;
-            
-        }
-
-        .form-check{
-            padding: 10px;
-        }
-
-        .form-check-input{
-            display: flex;
-            flex-direction: row;
-        }
-
-        .form-check-label{
-            display: flex;
-            flex-direction: row;
-        }
-        .form-group{
-            margin:auto;
-        }
-
-        .form-signin{
-            
-            border-color: black;
-            /* border-width: 10px; 
-            border-style:groove; */
-            margin:auto;
-            padding-top: 150px;
-            padding-bottom: 150px;
-            width: 100%;
-            max-width: 330px; 
-        }
-
-        .image{
-            height: auto;
-            width: 50px;
-        }
-
-        .logInSeparator{
-
-            border-top: 1px solid #cbd2d6;
-            margin:25px 0 10px;
-            position: relative;
-            text-align: center;
-        }
-
-        .Password{
-            
-            display:flex;
-            justify-content: flex-start;
-            
-        }
-
-        .text-center{
-
-            text-align: center;
-
-        }
-
-        .textInSeparator{
-           
-            background-color: #fff;
-            padding: 0 .5em;
-            position: relative;
-            top: -.7em;
-
-        }
-
-
-    </style>
     <head>
+            <link rel = "stylesheet" href = "login.css">
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
             <link rel="stylesheet" href="node_modules/mdbootstrap/css/bootstrap.min.css">
             <link rel="stylesheet" href="node_modules/mdbootstrap/css/mdb.min.css">
             <link rel="stylesheet" href="node_modules/mdbootstrap/css/style.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>        
    
     <body class = "text-center">
+        <div class = "container"> 
+
         <form class = "form-signin">
-            <div>
-                <img class = "image" src = "https://pbs.twimg.com/profile_images/1145724063106519040/b1L98qh9_400x400.jpg">
-            </div>
-            <h1 class = "h3 mb-3 font-weight-normal">
-                Please Sign In 
-            </h1>
+                <div class = "signIn">
+                        <img class = "image" src = "https://pbs.twimg.com/profile_images/1145724063106519040/b1L98qh9_400x400.jpg">             
+                        <h1 class = "h3 mb-3 font-weight-normal">
+                              Please Sign In 
+                      </h1>     
+                    </div>
+
             <div class = "form-group">
                 <label class = "Email" for = "form-group">Email Address</label>
                 <input type = "email" class = "form-control" placeholder="Email Address"> <!-- Creates text 'Email' inside the input -->
@@ -131,9 +52,34 @@
                 <button type="button" class="btn btn-primary btn-lg btn-block"> Sign Up</button> 
 
             </div>
+
+            <div class = "social-media">
+                <!-- <div class = "twitter">
+
+                    <button class="btn btn-primary" id = "twitter"><i class="fa fa-twitter"></i> </button>
+
+                </div>
+
+                <div class = "google">
+
+                    <button class="btn btn-primary" id = "google"><i class="fa fa-google"></i></button>
+
+                </div>
+
+                <div class = "facebook">
+
+                    <button class = "btn btn-primary" id = "facebook"><i class ="fa fa-facebook"></i></button>
+
+                </div> -->
+
+                <button class="btn btn-primary" id = "twitter"><i class="fa fa-twitter"></i> </button>
+                <button class="btn btn-primary" id = "google"><i class="fa fa-google"></i></button>
+                <button class = "btn btn-primary" id = "facebook"><i class ="fa fa-facebook"></i></button>
+
+            </div>
             </div>
         </form>
-
+        </div>
     </body>
 
 </html>
